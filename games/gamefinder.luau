@@ -2,8 +2,8 @@ getgenv().SocietyStandAPI = getgenv().SocietyStandAPI or {}
 local gameId = game.GameId
 
 local scripts = {
-    [10449761463] = "http://uk1.noxia.cloud:10019/scripts/stand_seprate/games/thestrongestb.luau", -- the strongest battlegrounds
-    [3808081382] = "http://uk1.noxia.cloud:10019/scripts/stand_seprate/games/thestrongestb.luau", -- the strongest battlegrounds  
+    [10449761463] = "https://xehh0.github.io/games/thestrongestb.luau", -- the strongest battlegrounds
+    [3808081382] = "https://xehh0.github.io/games/thestrongestb.luau", -- the strongest battlegrounds  
 }
 
 
