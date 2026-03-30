@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Attack Player",
+        "command": "attack",
+        "requiresTarget": true,
+        "args": []
+    },
+    {
+        "name": "Auto Attack Player",
+        "command": "auto",
+        "requiresTarget": true,
+        "args": []
+    },
+    {
+        "name": "Switch Mode",
+        "command": "switch",
+        "requiresTarget": false,
+        "args": [
+            {
+                "name": "Mode Number",
+                "type": "number",
+                "placeholder": "1-8",
+                "required": true
+            }
+        ]
+    },
+    {
+        "name": "Whitelist Add",
+        "command": "whitelist",
+        "requiresTarget": false,
+        "args": [
+            {
+                "name": "Subcommand",
+                "type": "dropdown",
+                "options": ["add", "remove", "list"],
+                "default": "add"
+            },
+            {
+                "name": "Player Name",
+                "type": "string",
+                "placeholder": "username",
+                "required": false,
+                "dependsOn": { "subcommand": ["add", "remove"] }
+            }
+        ]
+    },
+    {
+        "name": "Mimic Player",
+        "command": "mimic",
+        "requiresTarget": true,
+        "args": []
+    },
+    {
+        "name": "Guard Mode",
+        "command": "guard",
+        "requiresTarget": false,
+        "args": []
+    },
+    {
+        "name": "Sentry Mode",
+        "command": "sentry",
+        "requiresTarget": false,
+        "args": []
+    },
+    {
+        "name": "RC Mode (Reset Cooldown)",
+        "command": "rc",
+        "requiresTarget": false,
+        "args": []
+    },
+    {
+        "name": "AutoRoast",
+        "command": "autoroast",
+        "requiresTarget": false,
+        "args": []
+    }
+]
