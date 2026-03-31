@@ -1,1 +1,8 @@
-
+[
+    {
+        "name": "Attack Player",
+        "command": "attack",
+        "requiresTarget": true,
+        "args": []
+    }
+]
